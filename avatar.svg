@@ -1,49 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <!-- 肩膀 / 上衣 -->
-  <path d="M36 256 C40 208 74 188 128 188 C182 188 216 208 220 256 Z" fill="#F2ECE1"/>
+  <!-- 后发 -->
+  <path d="M128 28 C62 28 40 78 42 136 C44 182 52 218 64 246 L192 246 C204 218 212 182 214 136 C216 78 194 28 128 28 Z" fill="#F7F4FD"/>
+  <!-- 后发内侧暗部 -->
+  <path d="M128 46 C80 46 60 88 62 140 C64 180 70 208 78 232 L178 232 C186 208 192 180 194 140 C196 88 176 46 128 46 Z" fill="#FBF9FF"/>
+
+  <!-- 脖子 -->
+  <path d="M110 158 h36 v34 h-36 z" fill="#FFD9CC"/>
+
+  <!-- 外套 -->
+  <path d="M18 256 C26 204 64 180 128 180 C192 180 230 204 238 256 Z" fill="#23222B"/>
+  <!-- 外套翻领 -->
+  <path d="M92 182 L120 250 L70 256 L56 198 Z" fill="#2D2C37"/>
+  <path d="M164 182 L136 250 L186 256 L200 198 Z" fill="#2D2C37"/>
+
+  <!-- 粉色内搭 -->
+  <path d="M96 182 C102 208 112 224 128 226 C144 224 154 208 160 182 C150 177 139 174 128 174 C117 174 106 177 96 182 Z" fill="#F9A7C8"/>
+  <!-- 内搭暗部 -->
+  <path d="M96 182 C102 208 112 224 128 226 C120 212 114 196 112 180 Z" fill="#EE8FB6" opacity="0.7"/>
+
+  <!-- 白色衬领 -->
+  <path d="M104 178 L128 204 L152 178 C144 174 136 172 128 172 C120 172 112 174 104 178 Z" fill="#FFFFFF"/>
+
+  <!-- 项圈 -->
+  <rect x="106" y="176" width="44" height="10" rx="5" fill="#23222B"/>
+  <circle cx="128" cy="194" r="6.5" fill="#E8C46A"/>
 
   <!-- 猫耳 -->
-  <path d="M84 88 L58 26 L114 62 Z" fill="#4E4761"/>
-  <path d="M172 88 L198 26 L142 62 Z" fill="#4E4761"/>
-  <path d="M90 82 L73 45 L108 69 Z" fill="#F6B9C4"/>
-  <path d="M166 82 L183 45 L148 69 Z" fill="#F6B9C4"/>
-
-  <!-- 后层头发 -->
-  <path d="M128 40 C78 40 54 80 56 128 C58 166 64 194 74 212
-           C84 218 96 212 98 202 C88 178 86 150 90 126
-           C94 98 108 86 128 86 C148 86 162 98 166 126
-           C170 150 168 178 158 202 C160 212 172 218 182 212
-           C192 194 198 166 200 128 C202 80 178 40 128 40 Z" fill="#4E4761"/>
-
-  <!-- 头发反光 -->
-  <path d="M92 66 C106 54 126 50 144 54 C130 52 108 56 96 68 Z" fill="#767091" opacity="0.55"/>
-  <path d="M62 118 C60 140 62 160 66 178 C62 158 60 138 62 118 Z" fill="#767091" opacity="0.4"/>
+  <path d="M76 84 L48 20 L112 54 Z" fill="#23222B"/>
+  <path d="M180 84 L208 20 L144 54 Z" fill="#23222B"/>
+  <path d="M84 78 L67 38 L103 62 Z" fill="#F6A8C0"/>
+  <path d="M172 78 L189 38 L153 62 Z" fill="#F6A8C0"/>
 
   <!-- 脸 -->
-  <ellipse cx="128" cy="120" rx="48" ry="46" fill="#FFE6DA"/>
+  <ellipse cx="128" cy="112" rx="52" ry="50" fill="#FFE9E0"/>
+
+  <!-- 刘海投影 -->
+  <path d="M78 108 C82 78 100 62 128 62 C156 62 174 78 178 108 C168 92 150 86 128 88 C106 86 88 92 78 108 Z" fill="#F5CDBF" opacity="0.55"/>
+
+  <!-- 头顶暗部 -->
+  <path d="M78 96 C84 66 104 44 128 42 C112 52 96 70 88 98 Z" fill="#DED7EE" opacity="0.55"/>
+  <!-- 呆毛 -->
+  <path d="M126 58 C119 36 133 25 147 29 C138 37 132 47 133 58 Z" fill="#F7F4FD"/>
 
   <!-- 刘海 -->
-  <path d="M79 116 C81 80 101 62 128 62 C155 62 175 80 177 116
-           C170 100 161 91 152 95 C148 109 140 115 132 113
-           C126 103 120 99 112 103 C104 111 96 115 88 111
-           C83 105 80 108 79 116 Z" fill="#4E4761"/>
+  <path d="M74 118 C76 74 100 54 128 54 C156 54 180 74 182 118
+           C176 102 167 92 157 95 C155 110 146 118 138 113
+           C133 101 123 101 118 113 C110 118 101 110 99 95
+           C89 92 80 102 74 118 Z" fill="#F7F4FD"/>
+  <!-- 刘海高光 -->
+  <path d="M96 74 C110 60 132 56 150 62 C134 58 112 62 100 76 Z" fill="#FFFFFF" opacity="0.85"/>
 
-  <!-- 侧发 -->
-  <path d="M60 112 C54 146 58 182 68 206 C74 212 82 208 82 200 C74 176 72 144 77 118 Z" fill="#4E4761"/>
-  <path d="M196 112 C202 146 198 182 188 206 C182 212 174 208 174 200 C182 176 184 144 179 118 Z" fill="#4E4761"/>
+  <!-- 两侧垂发 -->
+  <path d="M58 108 C50 150 56 198 68 238 L74 216 C70 190 68 158 78 114 Z" fill="#F7F4FD"/>
+  <path d="M198 108 C206 150 200 198 188 238 L182 216 C186 190 188 158 178 114 Z" fill="#F7F4FD"/>
+  <path d="M62 128 C58 166 62 204 72 236 C66 202 64 164 68 128 Z" fill="#DFD8F0" opacity="0.8"/>
+  <path d="M194 128 C198 166 194 204 184 236 C190 202 192 164 188 128 Z" fill="#DFD8F0" opacity="0.8"/>
+
+  <!-- 发丝 -->
+  <path d="M104 96 C100 108 100 118 104 128" fill="none" stroke="#DED7EE" stroke-width="2" stroke-linecap="round"/>
+  <path d="M152 96 C156 108 156 118 152 128" fill="none" stroke="#DED7EE" stroke-width="2" stroke-linecap="round"/>
+  <path d="M128 100 C126 108 126 114 128 120" fill="none" stroke="#DED7EE" stroke-width="1.8" stroke-linecap="round"/>
 
   <!-- 眼睛 -->
-  <ellipse cx="105" cy="132" rx="9.5" ry="12.5" fill="#3A3450"/>
-  <ellipse cx="151" cy="132" rx="9.5" ry="12.5" fill="#3A3450"/>
-  <circle cx="108" cy="126" r="3.4" fill="#FFFFFF"/>
-  <circle cx="154" cy="126" r="3.4" fill="#FFFFFF"/>
-  <circle cx="103" cy="137" r="1.7" fill="#FFFFFF" opacity="0.85"/>
-  <circle cx="149" cy="137" r="1.7" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="103" cy="126" rx="11.5" ry="14.5" fill="#2E2730"/>
+  <ellipse cx="153" cy="126" rx="11.5" ry="14.5" fill="#2E2730"/>
+  <ellipse cx="103" cy="128" rx="9" ry="11.8" fill="#E9A44E"/>
+  <ellipse cx="153" cy="128" rx="9" ry="11.8" fill="#E9A44E"/>
+  <ellipse cx="103" cy="131" rx="4.4" ry="6.6" fill="#2E2730"/>
+  <ellipse cx="153" cy="131" rx="4.4" ry="6.6" fill="#2E2730"/>
+  <circle cx="106" cy="121" r="3.6" fill="#FFFFFF"/>
+  <circle cx="156" cy="121" r="3.6" fill="#FFFFFF"/>
+  <circle cx="100" cy="134" r="2" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="150" cy="134" r="2" fill="#FFFFFF" opacity="0.9"/>
+  <!-- 睫毛 -->
+  <path d="M91 117 C97 108 111 107 117 115" fill="none" stroke="#2E2730" stroke-width="3" stroke-linecap="round"/>
+  <path d="M139 115 C145 107 159 108 165 117" fill="none" stroke="#2E2730" stroke-width="3" stroke-linecap="round"/>
 
   <!-- 腮红 -->
-  <ellipse cx="86" cy="148" rx="8" ry="4.2" fill="#F79FB4" opacity="0.5"/>
-  <ellipse cx="170" cy="148" rx="8" ry="4.2" fill="#F79FB4" opacity="0.5"/>
+  <ellipse cx="84" cy="144" rx="9" ry="4.8" fill="#F79FB4" opacity="0.55"/>
+  <ellipse cx="172" cy="144" rx="9" ry="4.8" fill="#F79FB4" opacity="0.55"/>
 
-  <!-- ω 嘴 -->
-  <path d="M121 150 q3.5 4.5 7 0 q3.5 4.5 7 0" fill="none" stroke="#9A5B63" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- 嘴 -->
+  <path d="M121 148 q3.5 4.5 7 0 q3.5 4.5 7 0" fill="none" stroke="#B5646E" stroke-width="2.2" stroke-linecap="round"/>
 </svg>
