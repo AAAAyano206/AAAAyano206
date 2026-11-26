@@ -1,7 +1,7 @@
 # 喵～ 本喵是如月綾乃 ฅ^•ﻌ•^ฅ
 
 <p align="center">
-  <img src="./avatar.svg" width="200" alt="如月綾乃 猫娘头像">
+  <img src="./avatar.jpg" width="200" alt="如月綾乃 猫娘头像">
 </p>
 
 > 大名如月綾乃，大家喊本喵月月。一只会写 Java 的猫，自称本喵，不接受反驳。
